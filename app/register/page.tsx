@@ -28,8 +28,9 @@ export default function Register() {
   };
 
   return (
+    <main>
+    <NavBar/>
     <div style={{alignItems:'center', display: 'flex', flexDirection: 'column', gap: '20px'}}>
-      <NavBar/>
       
       <h1 style={{fontSize:'1.5em'}}>Register for Lift Card!</h1>
 
@@ -88,6 +89,7 @@ export default function Register() {
 
       </form>
     </div>
+    </main>
 );
 
 }

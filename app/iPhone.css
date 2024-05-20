@@ -35,6 +35,20 @@ a {
     border-radius: 35px;
   }
 
+  .outside-border-alternate {
+    /* Image Used to Display the BG */
+    background-image: url("images/Lift Card SS 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 331.2px; /* Increased from 212px to 300px */
+    height: 716.8px; /* Increased from 438px to 600px */
+    border: 0.6px solid white;
+    margin-left: -9px;
+    margin-top: 37px;
+    border-radius: 35px;
+  }
+
 .silencer {
   position: absolute;
   background-color: white;

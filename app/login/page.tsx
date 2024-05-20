@@ -30,8 +30,10 @@ export default function Login() {
   };
 
   return (
-    <div style={{alignItems:'center', display: 'flex', flexDirection: 'column', gap: '20px'}}>
+    <main>
       <NavBar/>
+
+    <div style={{alignItems:'center', display: 'flex', flexDirection: 'column', gap: '20px'}}>
       
       <h1 style={{fontSize:'1.5em'}}>Login</h1>
 
@@ -78,5 +80,6 @@ export default function Login() {
 
       </form>
     </div>
+    </main>
 );
 };
