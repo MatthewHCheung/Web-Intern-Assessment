@@ -64,7 +64,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        {/* show info on the  */}
+        {/* show info about the app*/}
         <div style={{marginTop: "250px"}}>
           <h1 style={{ fontSize: "3.5em" }}>
             <span>Bringing you closer</span>
