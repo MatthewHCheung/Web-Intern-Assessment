@@ -45,8 +45,8 @@ export default function Landing() {
         </div>
           
       </div>
-        
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',marginRight:"350px"}}>
+        {/* create second iphone template */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start',marginRight:'12em'}}>
         <div className = 'outside-border-alternate' style={{marginTop: "100px", marginLeft:'430px'}}>
           <div className="silencer"></div>
           <div className="volume-up"></div>
@@ -64,7 +64,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-
+        {/* show info on the  */}
         <div style={{marginTop: "250px"}}>
           <h1 style={{ fontSize: "3.5em" }}>
             <span>Bringing you closer</span>

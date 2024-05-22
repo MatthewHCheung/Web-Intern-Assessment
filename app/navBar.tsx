@@ -15,7 +15,7 @@ const NavBar = () => {
       <Image style={{display:'flex',marginLeft:'2em'}} src={favicon} alt="Logo" width={100} />         
       </a>
     
-      <ul style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center',paddingLeft:'85em'}}>
+      <ul style={{display: 'flex', justifyContent: 'flex-end', alignItems: 'center',paddingLeft:'75em'}}>
         <li ><Link href="/"  style={{color: 'white', fontSize: '1.5em', paddingRight:'2em'}}>Landing</Link></li>
         <li ><Link href="/register" passHref style={{color: 'white', fontSize: '1.5em', paddingRight:'2em'}}>Register</Link></li>
         <li ><Link href="/login" passHref style={{color: 'white', fontSize: '1.5em', paddingRight:'2em'}}>Login</Link></li>
